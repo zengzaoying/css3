@@ -1,0 +1,926 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.picture{
+    width: 100%;
+    height: 2000px;
+    border: solid 1px red;
+}
+.picture ul li{
+    list-style-type: none;
+    float: left;
+}
+.imag1{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    overflow:hidden ;
+}
+.firsttuc{
+    width: 500px;
+    height: 400px;
+    background-color: #3085a3;
+     opacity: 0.5;
+    -webkit-transition: all .3s linear;
+}
+#first{
+    position: relative;
+    background-image: url("image/lanrenzhijia1.jpg");
+    background-position: -50px 0px;
+    -webkit-transition: all .3s linear;
+}
+#first:hover{
+    background-position: 0px 0px;
+}
+#first:hover .firsttuc{
+    opacity: 0;
+}
+.firstfont{
+    position: absolute;
+    top: 270px;
+    left: 60px;
+    width: 300px;
+    height: 100px;
+    color: white;
+    text-transform: uppercase;
+    -webkit-transition: all .3s linear;
+}
+.firstfont p{
+    opacity: 0;
+    -webkit-transition: all .3s linear;
+}
+#first:hover .firstfont{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+#first:hover .firstfont p{
+    opacity: 1;
+}
+.twotuc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    -webkit-transition: all .3s linear;
+    opacity: 0;
+}
+.twofont{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    text-transform: uppercase;
+    color: #536d76;
+    -webkit-transition: all .3s linear;
+    /*border: solid 1px red;*/
+}
+.twofont p{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    font-size: 12px;
+    left: 150px;
+    opacity: 0;
+    -webkit-transition: all .3s linear;
+}
+#two:hover .twotuc{
+    background:-webkit-linear-gradient(top,gainsboro,#536d76);
+    opacity: .5 ;
+}
+#two:hover .twofont{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    color: white;
+}
+#two:hover .twofont p{
+    opacity: 1;
+}
+/*第三张*/
+.three{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    -webkit-transition: all .3s linear;
+    background-color: rgba(0,0,0,.3);
+    opacity: 0;
+}
+#three:hover .three{
+    opacity: 1;
+}
+.black{
+    position: absolute;
+   bottom: 0px;
+    right: 0px;
+    width: 500px;
+    height: 10px;
+    -webkit-transition: all .5s linear;
+    background-color: white;
+    opacity: 0;
+}
+#three h1{
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    width: 500px;
+    text-align: center;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    -webkit-transition: all .3s linear;
+}
+#three:hover h1{
+    position: absolute;
+    bottom: 20px;
+}
+#three:hover .black{
+    opacity: 1;
+}
+#for{
+    position: relative;
+    background-image: url("image/lanrenzhijia4.jpg");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    -webkit-transition: all .3s linear;
+    color: white;
+    text-align: center;
+}
+#for:hover{
+    background-position: 0px 0px;
+}
+.fortuc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,0,0,.3);
+    opacity: 0;
+}
+#for:hover .fortuc{
+    opacity: 1;
+}
+.forfont{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    width: 380px;
+    height: 200px;
+}
+.forfont p{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    opacity: 0;
+    -webkit-transition: all .4s linear;
+}
+#for:hover .forfont p{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    opacity: 1;
+}
+.xiantiao1{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 450px;
+    height: 300px;
+    border-left:0px;
+    border-right: 0px;
+    border-top: solid 1px white;
+    border-bottom:solid 1px white;
+    -webkit-transition: all .4s linear;
+    opacity: 0;
+}
+.xiantiao2{
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    width: 400px;
+    height: 350px;
+    border-left:solid 1px white;
+    border-right: solid 1px white;;
+    border-top: 0px;
+    border-bottom:0px ;
+    opacity: 0;
+    -webkit-transition: all .4s linear;
+}
+#for:hover .xiantiao1{
+    opacity: 1;
+}
+#for:hover .xiantiao2{
+    opacity: 1;
+}
+
+#five{
+    position: relative;
+}
+#five h2{
+    position: absolute;
+    text-transform: uppercase;
+    /*opacity: .6;*/
+    bottom: 1px;
+    right: 300px;
+    opacity: 0;
+    z-index: 20;
+    -webkit-transition: all .4s linear;
+}
+.kuang .div1{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all .5s linear;
+    border: solid 1px black;
+}
+.kuang .div2{
+    position: absolute;
+    bottom: 0px;
+    right: 60px;
+    width: 10px;
+    height: 10px;
+    z-index: 11;
+    opacity: 0;
+    -webkit-transition: all .5s linear;
+    border: solid 1px black;
+}
+.kuang .div3{
+    position: absolute;
+    bottom: 0px;
+    right: 110px;
+    width: 10px;
+    height: 10px;
+    z-index: 12;
+    opacity: 0;
+    -webkit-transition: all .5s linear;
+    border: solid 1px black;
+}
+#five:hover .kuang .div1,.div2,.div3{
+    position: absolute;
+    bottom: 20px;
+    opacity: 1;
+}
+#five:hover .kuang .div2{
+    position: absolute;
+    bottom: 20px;
+    opacity: 1;
+}
+#five:hover .kuang .div3{
+    position: absolute;
+    bottom: 20px;
+    opacity: 1;
+}
+#five p{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: white;
+    z-index: 200;
+    -webkit-transition: all .5s linear;
+}
+#five:hover p{
+    position: absolute;
+    top: 150px;
+}
+.black1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 500px;
+    height: 60px;
+    -webkit-transition: all .5s linear;
+    background-color: white;
+    opacity: 0;
+}
+#five:hover .black1{
+    opacity: 1;
+}
+#five:hover h2{
+    position: absolute;
+    bottom: 15px;
+    right: 300px;
+    opacity: 1;
+}
+#for{
+    position: relative;
+    -webkit-transition: all .3s linear;
+    color: white;
+    text-align: center;
+}
+.sixtuc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255,0,0,.2);
+    opacity: 0;
+}
+#six:hover .sixtuc{
+    opacity: 1;
+}
+.sixfont{
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    text-align: center;
+    color: white;
+    width: 380px;
+    height: 200px;
+    -webkit-transition: all .4s linear;
+}
+#six:hover .sixfont h1{
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    -webkit-transition: all .5s linear;
+}
+.sixfont p{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    opacity: 0;
+    -webkit-transition: all .3s linear;
+}
+#six:hover .sixfont p {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    opacity: 1;
+}
+.xiantiao{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 300px;
+    height: 180px;
+    opacity: 0;
+    border: solid 1px white;
+    -webkit-transition: all .3s linear;
+    -webkit-transform: scale(1.1);
+}
+#six:hover .xiantiao{
+    opacity: 1;
+    -webkit-transform: scale(1.5,1.5);
+}
+#seven{
+    position: relative;
+}
+#seven h1{
+    position: absolute;
+    top:40px;
+    left: 200px;
+    color:white;
+    -webkit-transition: all .3s linear;
+
+}
+.sevenxian{
+    position: absolute;
+    top:120px;
+    left: 40px;
+    width: 400px;
+    height: 4px;
+    -webkit-transition: all .3s linear;
+    background-color: white;
+    opacity: 0;
+}
+#seven p{
+    position: absolute;
+    bottom:-20px;
+    right: 50px;
+    text-align: right;
+    -webkit-transition: all .3s linear;
+    color: white;
+    opacity: 0;
+}
+#seven:hover .sevenxian{
+    position: absolute;
+    top:80px;
+    left: 40px;
+    opacity: 1;
+}
+#seven:hover h1{
+    position: absolute;
+    top:20px;
+    left: 200px;
+}
+#seven:hover p{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    opacity: 1;
+}
+#eight{
+    position: relative;
+    background-image: url("image/lanrenzhijia10.jpg");
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    -webkit-transition: all .2s linear;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+#eight .eighttuc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,0,0,.4);
+
+}
+#eight:hover{
+    background-size: 630px 630px;
+}
+#eight h1{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    -webkit-transition: all .3s linear;
+}
+.eightbk{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 390px;
+    height: 120px;
+    opacity: 0;
+    border: solid 1px white;
+    -webkit-transition: all .3s linear;
+}
+.eightbk p{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    text-align: center;
+    -webkit-transition: all .3s linear;
+}
+#eight:hover .eightbk{
+    opacity: 1;
+}
+#eight:hover h1{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+#night{
+    position: relative;
+    background-image: url("image/lanrenzhijia3.jpg");
+    background-size: 600px 500px;
+    background-position: -50px 0px;
+    -webkit-transition: all .4s linear;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+#night:hover{
+    background-position: 0px 0px;
+}
+.nighttxt{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    height: 320px;
+    width: 420px;
+    opacity: 0;
+    -webkit-transition: all .4s linear;
+    border: solid 1px white;
+}
+#night h1{
+     position: absolute;
+     top: 150px;
+     left: 60px;
+    opacity: 1;
+    -webkit-transition: all .4s linear;
+ }
+.nighttxt p{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    -webkit-transition: all .4s linear;
+}
+#night:hover .nighttxt{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    opacity: 1;
+}
+#night:hover .nighttxt p{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+}
+#eleven{
+    position: relative;
+}
+.eleventc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    opacity: 0;
+    -webkit-transition: all .4s linear;
+    background-color: rgba(251,120,35,.3);
+}
+#eleven:hover .eleventc{
+    opacity: 1;
+}
+#eleven h1{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    text-transform: uppercase;
+    color: white;
+    -webkit-transition: all .4s linear;
+}
+#eleven:hover h1{
+    position: absolute;
+    top: 160px;
+}
+#eleven p{
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    -webkit-transition: all .4s linear;
+}
+#eleven:hover p{
+    position: absolute;
+    top: 200px;
+    opacity: 1;
+}
+.top{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width: 100px;
+    -webkit-transition: all .4s linear;
+    -webkit-transform: scale(1,1);
+    border-left:0px;
+    border-right:0px ;;
+    border-top:0px ;
+    border-bottom:solid 1px white ;
+    opacity: 0;
+
+}
+#eleven:hover .top{
+    -webkit-transform: scale(4,1);
+    opacity: 1;
+}
+.botom{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    width: 100px;
+    -webkit-transition: all .4s linear;
+    -webkit-transform: scale(1,1);
+    opacity: 0;
+    border-left:0px;
+    border-right:0px ;;
+    border-top:0px ;
+    border-bottom:solid 1px white ;
+}
+#eleven:hover .botom{
+    -webkit-transform: scale(4,1);
+    opacity: 1;
+}
+.left{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    height: 100px;
+    border-left:0px;
+    border-right: solid 1px white;;
+    border-top:0px ;
+    border-bottom:0px ;
+    -webkit-transition: all .4s linear;
+    -webkit-transform: scale(1,1);
+    opacity: 0;
+}
+#eleven:hover .left{
+    -webkit-transform: scale(1,3);
+    opacity: 1;
+}
+.right{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    height: 100px;
+    border-left:0px;
+    border-right: solid 1px white;;
+    border-top:0px ;
+    border-bottom:0px ;
+    -webkit-transition: all .4s linear;
+    -webkit-transform: scale(1,1);
+    opacity: 0;
+}
+#eleven:hover .right{
+    -webkit-transform: scale(1,3);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#tewlve{
+    position: relative;
+    background-image: url("image/lanrenzhijia5.jpg");
+    background-size: 600px 600px;
+    /*background-position: -50px 0px;*/
+    -webkit-transition: all .4s linear;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+#tewlve:hover{
+    background-size: 500px 500px;
+}
+.tewlve{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,0,0,.3);
+}
+#tewlve h2{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+}
+#tewlve p{
+    position: absolute;
+    top: 220px;
+    left: 15px;
+    -webkit-transition: all .4s linear;
+}
+.xian1{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 350px;
+    border-left:0px;
+    border-right: 0px;;
+    border-top: solid 1px white;
+    border-bottom:0px ;
+    -webkit-transition: all .4s linear;
+}
+.xian2{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 350px;
+    border-left:0px;
+    border-right: 0px;;
+    border-top: solid 1px white;
+    border-bottom:0px;
+    -webkit-transition: all .4s linear;
+}
+#tewlve:hover .xian1{
+    -webkit-transform: rotate(40deg);
+}
+#tewlve:hover .xian2{
+    -webkit-transform: rotate(-40deg);
+}
+.tewlvetext{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 450px;
+    height: 300px;
+    /*border: solid 1px white;*/
+}
+#tewlve:hover p{
+    position: absolute;
+    top: 200px;
+    left: 15px;
+}
+#thireen{
+    position: relative;
+    color: white;
+}
+#thireen h1{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    -webkit-transition: all .4s linear;
+}
+.thireenku{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 400px;
+    height: 150px;
+    -webkit-transition: all .4s linear;
+    border: solid 10px white;
+}
+#thireen p{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    text-transform: uppercase;
+    -webkit-transition: all .4s linear;
+    opacity: 0;
+}
+#thireen:hover p{
+    opacity: 1;
+}
+#thireen:hover .thireenku{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+#fourteen{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    background-image: url("image/lanrenzhijia13.jpg");
+    /*background-size: 600px 600px;*/
+    background-position: -40px 0px;
+    -webkit-transition: all .4s linear;
+}
+#fourteen:hover{
+    /*background-size: 500px 500px;*/
+    background-position: 0px 0px;
+}
+.fourtuc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,100,0,.3);
+    opacity: 0;
+}
+#fourteen:hover .fourtuc{
+    opacity: 1;
+}
+#fourteen h1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    -webkit-transition: all .4s linear;
+}
+#fourteen p{
+    position: absolute;
+    bottom: 230px;
+    right: -250px;
+    width: 350px;
+    opacity: 0;
+    -webkit-transition: all .4s linear;
+}
+.fournku{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    Transform-origin:left;
+    -webkit-transition: all .4s linear;
+    opacity: 0;
+}
+#fourteen:hover .fournku{
+    position: absolute;
+    -webkit-transform: scale(10,1);
+    opacity: 1;
+}
+#fourteen:hover p{
+    position: absolute;
+    right: 110px;
+    opacity: 1;
+}
+#fifiteen{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    background-image: url("image/lanrenzhijia15.jpg");
+    background-size: 550px 450px;
+    /*background-position: -40px 0px;*/
+    -webkit-transition: all .4s linear;
+}
+#fifiteen:hover{
+    background-size: 500px 400px;
+    /*background-position: 0px 0px;*/
+}
+.fifituc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,0,0,.3);
+}
+.fifnku{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 430px;
+    height: 330px;
+    border: solid 1px white;
+    -webkit-transform: scale(1,1);
+    -webkit-transition: all .4s linear;
+}
+.fifnku h1{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+.fifnku p{
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    width: 200px;
+    text-align: center;
+    -webkit-transform: scale(1,1);
+    -webkit-transition: all .4s linear;
+}
+#fifiteen:hover .fifnku p{
+    -webkit-transform: scale(0.8,0.8);
+}
+#fifiteen:hover .fifnku{
+    -webkit-transform: scale(0.8,0.8);
+}
+#sixten{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    background-image: url("image/lanrenzhijia11.jpg");
+    background-position: -25px 0px;
+    -webkit-transition: all .4s linear;
+}
+#sixten:hover{
+    background-position: 0px 0px;
+}
+.sixtuc{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,0,0,.8);
+}
+.sixnku{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 260px;
+    height: 110px;
+    border-left: 0px;
+    border-right: solid 1px white;
+    border-bottom: 0px;
+    border-top: 0px;
+    opacity: 0;
+    -webkit-transform: scale(1,1);
+    -webkit-transition: all .4s linear;
+}
+#sixten h1{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.sixnku p{
+    position: absolute;
+    top: 13px;
+    left: 50px;
+    width: 200px;
+    text-align: right;
+    -webkit-transform: scale(1,1);
+    opacity: 0;
+    -webkit-transition: all .4s linear;
+}
+#sixten:hover .sixnku p{
+    position: absolute;
+    left: 30px;
+    opacity: 1;
+}
+#sixten:hover .sixnku{
+    position: absolute;
+    left: -20px;
+    opacity: 1;
+}
